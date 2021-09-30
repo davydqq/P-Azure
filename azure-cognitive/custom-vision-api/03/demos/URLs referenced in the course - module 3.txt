@@ -1,0 +1,15 @@
+Module 3 - Building and Training a Custom Vision Service Model
+--------------------------------------------------------------
+
+RSPB's "Big Garden Birdwatch"
+https://www.rspb.org.uk/get-involved/activities/birdwatch/
+
+Custom vision portal
+https://customvision.ai/customvision.ai
+
+Custom vision service pricing
+https://azure.microsoft.com/en-gb/pricing/details/cognitive-services/custom-vision-service/
+
+
+
+

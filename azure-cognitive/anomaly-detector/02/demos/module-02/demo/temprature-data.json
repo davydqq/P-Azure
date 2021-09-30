@@ -1,0 +1,126 @@
+{
+    "granularity": "minutely",
+    "sensitivity": 99,
+    "series": [
+      {
+        "timestamp": "2020-02-28T00:01:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:02:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:03:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:04:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:05:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:06:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:07:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:08:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:09:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:10:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:11:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:12:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:13:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:14:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:15:00Z",
+        "value": 98.5
+      },
+      {
+        "timestamp": "2020-02-28T00:16:00Z",
+        "value": 101
+      },
+      {
+        "timestamp": "2020-02-28T00:17:00Z",
+        "value": 98
+      },
+      {
+        "timestamp": "2020-02-28T00:18:00Z",
+        "value": 96
+      },
+      {
+        "timestamp": "2020-02-28T00:19:00Z",
+        "value": 96.5
+      },
+      {
+        "timestamp": "2020-02-28T00:20:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:21:00Z",
+        "value": 89.5
+      },
+      {
+        "timestamp": "2020-02-28T00:22:00Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-02-28T00:23:00Z",
+        "value": 99
+      },
+      {
+        "timestamp": "2020-02-28T00:24:00Z",
+        "value": 95
+      },
+      {
+        "timestamp": "2020-02-28T00:25:00Z",
+        "value": 92
+      },
+      {
+        "timestamp": "2020-02-28T00:26:00Z",
+        "value": 20
+      },
+      {
+        "timestamp": "2020-02-28T00:27:00Z",
+        "value": 200
+      },
+      {
+        "timestamp": "2020-02-28T00:28:00Z",
+        "value": 101
+      },
+      {
+        "timestamp": "2020-02-28T00:29:00Z",
+        "value": 100.5
+      },
+      {
+        "timestamp": "2020-02-28T00:30:00Z",
+        "value": 105
+      }
+    ]
+}

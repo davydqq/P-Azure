@@ -1,0 +1,1 @@
+Use the Postman "Import" feature in import the Face API.postman_collection-5.11.2018-final.json Collection.

@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "9ce9cf45-576e-46c0-9e2d-a00d7c455e94",
+		"name": "AnomalyDetector",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Anomaly Batch",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "92b04fc2e426432bbbe65ff4b5c4474b"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"granularity\": \"minutely\",\r\n    \"sensitivity\": 99,\r\n    \"series\": [\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:01:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:02:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:03:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:04:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:05:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:06:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:07:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:08:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:09:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:10:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:11:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:12:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:13:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:14:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:15:00Z\",\r\n        \"value\": 98.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:16:00Z\",\r\n        \"value\": 101\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:17:00Z\",\r\n        \"value\": 98\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:18:00Z\",\r\n        \"value\": 96\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:19:00Z\",\r\n        \"value\": 96.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:20:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:21:00Z\",\r\n        \"value\": 89.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:22:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:23:00Z\",\r\n        \"value\": 99\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:24:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:25:00Z\",\r\n        \"value\": 92\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:26:00Z\",\r\n        \"value\": 20\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:27:00Z\",\r\n        \"value\": 200\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:28:00Z\",\r\n        \"value\": 101\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:29:00Z\",\r\n        \"value\": 100.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:30:00Z\",\r\n        \"value\": 105\r\n      }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "https://cs-ad-ps-demo01.cognitiveservices.azure.com/anomalydetector/v1.0/timeseries/entire/detect",
+					"protocol": "https",
+					"host": [
+						"cs-ad-ps-demo01",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"anomalydetector",
+						"v1.0",
+						"timeseries",
+						"entire",
+						"detect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anomaly Stream Positive",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "92b04fc2e426432bbbe65ff4b5c4474b"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"granularity\": \"minutely\",\r\n    \"sensitivity\": 99,\r\n    \"series\": [\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:01:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:02:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:03:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:04:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:05:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:06:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:07:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:08:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:09:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:10:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:11:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:12:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:13:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:14:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:15:00Z\",\r\n        \"value\": 98.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:16:00Z\",\r\n        \"value\": 101\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:17:00Z\",\r\n        \"value\": 98\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:18:00Z\",\r\n        \"value\": 96\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:19:00Z\",\r\n        \"value\": 96.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:20:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:21:00Z\",\r\n        \"value\": 89.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:22:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:23:00Z\",\r\n        \"value\": 99\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:24:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:25:00Z\",\r\n        \"value\": 92\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:26:00Z\",\r\n        \"value\": 20\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:27:00Z\",\r\n        \"value\": 20\r\n      }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "https://cs-ad-ps-demo01.cognitiveservices.azure.com/anomalydetector/v1.0/timeseries/last/detect",
+					"protocol": "https",
+					"host": [
+						"cs-ad-ps-demo01",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"anomalydetector",
+						"v1.0",
+						"timeseries",
+						"last",
+						"detect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anomaly Stream Negative",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "8794eee9e3e24af2ad7eb089b8311317"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"granularity\": \"minutely\",\r\n    \"sensitivity\": 99,\r\n    \"series\": [\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:01:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:02:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:03:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:04:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:05:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:06:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:07:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:08:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:09:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:10:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:11:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:12:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:13:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:14:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:15:00Z\",\r\n        \"value\": 98.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:16:00Z\",\r\n        \"value\": 101\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:17:00Z\",\r\n        \"value\": 98\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:18:00Z\",\r\n        \"value\": 96\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:19:00Z\",\r\n        \"value\": 96.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:20:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:21:00Z\",\r\n        \"value\": 89.5\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:22:00Z\",\r\n        \"value\": 100\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:23:00Z\",\r\n        \"value\": 99\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:24:00Z\",\r\n        \"value\": 95\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:25:00Z\",\r\n        \"value\": 92\r\n      },\r\n      {\r\n        \"timestamp\": \"2020-02-28T00:26:00Z\",\r\n        \"value\": 20\r\n      }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "https://anomalydetectorps01.cognitiveservices.azure.com/anomalydetector/v1.0/timeseries/last/detect",
+					"protocol": "https",
+					"host": [
+						"anomalydetectorps01",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"anomalydetector",
+						"v1.0",
+						"timeseries",
+						"last",
+						"detect"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

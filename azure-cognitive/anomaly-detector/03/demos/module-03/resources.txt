@@ -1,0 +1,42 @@
+Working With Azure Cognitive Services Anomaly Detector resources
+================================================================
+
+Main documentation
+------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/
+
+
+SDK .NET
+-------
+https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/quickstarts/detect-data-anomalies-csharp-sdk?tabs=windows
+
+
+REST API
+--------
+https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/quickstarts/detect-data-anomalies-csharp?tabs=windows
+
+
+Anomaly Detector v1.0 Best Practices
+------------------------------------
+https://channel9.msdn.com/Shows/AI-Show/Anomaly-Detector-v10-Best-Practices?WT.mc_id=ai-c9-niner#time=00m46s
+https://westus2.dev.cognitive.microsoft.com/docs/services/AnomalyDetector/operations/post-timeseries-entire-detect
+
+
+Stream analytics & anomaly detection
+------------------------------------
+https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-machine-learning-anomaly-detection
+
+
+Tutorial: Visualize anomalies using batch detection and Power BI
+----------------------------------------------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/tutorials/batch-anomaly-detection-powerbi
+
+
+Microsoft live anomaly detector demo
+------------------------------------
+https://aka.ms/addemo
+
+
+
+
+

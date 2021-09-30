@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterMonitoring", "TwitterMonitoring\TwitterMonitoring.csproj", "{92ACE5BB-DCFE-4156-84D3-1D7AD9F1AEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterHelper", "TwitterHelper\TwitterHelper.csproj", "{86396CF8-F66E-4E71-A10E-CAA30E7A5CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92ACE5BB-DCFE-4156-84D3-1D7AD9F1AEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92ACE5BB-DCFE-4156-84D3-1D7AD9F1AEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92ACE5BB-DCFE-4156-84D3-1D7AD9F1AEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92ACE5BB-DCFE-4156-84D3-1D7AD9F1AEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86396CF8-F66E-4E71-A10E-CAA30E7A5CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86396CF8-F66E-4E71-A10E-CAA30E7A5CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86396CF8-F66E-4E71-A10E-CAA30E7A5CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86396CF8-F66E-4E71-A10E-CAA30E7A5CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

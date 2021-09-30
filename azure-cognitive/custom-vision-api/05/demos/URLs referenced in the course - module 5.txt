@@ -1,0 +1,15 @@
+Module 5 - Working with the Training API
+----------------------------------------
+
+Custom Vision Service SDK
+https://github.com/Microsoft/Cognitive-CustomVision-Windows/
+https://www.nuget.org/packages/Microsoft.Cognitive.CustomVision.Training/
+
+Training API reference:
+https://southcentralus.dev.cognitive.microsoft.com/docs/services/d0e77c63c39c4259a298830c15188310/operations/39b14cb5f7f34977a6e6a290
+
+Source code for the sample application:
+https://github.com/AndyButland/BirdRecognizer
+
+
+

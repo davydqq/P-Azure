@@ -1,0 +1,15 @@
+Module 4 - Working With the Prediction API
+------------------------------------------
+
+Source code for the sample application:
+https://github.com/AndyButland/BirdRecognizer
+
+Prediction API high-level walk-through:
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/use-prediction-api
+
+Prediction API reference:
+https://southcentralus.dev.cognitive.microsoft.com/docs/services/450e4ba4d72542e889d93fd7b8e960de/operations/5a6264bc40d86a0ef8b2c290
+
+Custom Vision Service SDK
+https://github.com/Microsoft/Cognitive-CustomVision-Windows/
+https://www.nuget.org/packages/Microsoft.Cognitive.CustomVision.Prediction/

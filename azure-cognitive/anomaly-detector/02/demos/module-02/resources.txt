@@ -1,0 +1,19 @@
+Machine Learning and Time Series Data resources
+===============================================
+
+Time series & time series anomaly detection
+-------------------------------------------
+https://en.wikipedia.org/wiki/Time_series
+https://www.youtube.com/watch?v=fKc6mt7rp8A
+https://www.youtube.com/watch?v=12Xq9OLdQwQ
+
+
+Anomaly Detector API Documentation
+---------------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/
+
+
+Anomaly Detector API Reference
+------------------------------
+https://westus2.dev.cognitive.microsoft.com/docs/services/AnomalyDetector/operations/post-timeseries-entire-detect
+

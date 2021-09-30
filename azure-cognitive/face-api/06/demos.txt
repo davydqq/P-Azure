@@ -1,0 +1,7 @@
+# To run the sample shown in this module, follow these steps from command line (as shown in course):
+
+
+git clone https://github.com/smichelotti/ps-face-api-explorer
+cd ps-face-api-explorer
+npm install
+ng serve

@@ -1,0 +1,26 @@
+Module 2 - Introducing the Custom Vision Service
+------------------------------------------------
+
+"Microsoft Azure Cognitive Services: The Big Picture", Pluralsight course, Barry Luijbregts
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-big-picture/
+
+Cognitive Services documentation
+https://azure.microsoft.com/en-us/services/cognitive-services/
+
+"Microsoft Azure Cognitive Services: Computer Vision API", Pluralsight course, Eduardo Freitas
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-computer-vision-api/ 
+
+Computer Vision Service documentation
+https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/ 
+
+"Machine Learning Projects for .Net Developers", Book, Mathias Brandewinder
+https://www.apress.com/it/book/9781430267676  
+
+Stanford Computer Science class: Convolutional Neural Networks for Visual Recognition course notes
+http://cs231n.github.io/ 
+
+"Understanding Machine Learning", Pluralsight course, David Chappell
+https://app.pluralsight.com/library/courses/understanding-machine-learning 
+
+
+

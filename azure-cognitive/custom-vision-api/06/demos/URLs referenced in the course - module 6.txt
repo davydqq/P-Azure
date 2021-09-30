@@ -1,0 +1,52 @@
+Module 6 - Using a Custom Vision Service Model Offline
+------------------------------------------------------
+
+Demo source code
+----------------
+
+UWP demo
+https://github.com/AndyButland/BirdRecognizerUwp
+
+Xamarin/Android demo
+https://github.com/AndyButland/BirdRecognizerAndroid
+
+Python script demo
+https://github.com/AndyButland/BirdRecognizerPython
+
+References
+----------
+
+Sample application for ONNX models exported from Custom Vision Service
+https://azure.microsoft.com/en-gb/resources/samples/cognitive-services-onnx-customvision-sample/
+
+Image classification with WinML and UWP
+Pieter Nijs
+https://blog.pieeatingninjas.be/2018/05/15/image-classification-with-winml-and-uwp/
+
+Developing Universal Windows app using WinML model exported from Custom Vision
+Ayako
+https://blogs.msdn.microsoft.com/bluesky/2018/07/11/developing-universal-windows-app-using-winml-model-exported-from-custom-vision-en/
+
+Experimenting with Windows Machine Learning and Mixed Reality
+Ettienne Margraff
+https://meulta.com/en/2018/05/18/experimenting-with-windows-machine-learning-and-mixed-reality/
+
+Windows ML: using ONNX models on the edge
+Sergiy Baydachnyy
+https://en.baydachnyy.com/2018/06/06/windows-ml-using-onnx-models-on-the-edge/
+
+Add a bit of machine learning to your Windows application thanks to WinML
+Matteo Pagani
+https://blogs.msdn.microsoft.com/appconsult/2018/05/23/add-a-bit-of-machine-learning-to-your-windows-application-thanks-to-winml/
+
+Using TensorFlow and Azure to Add Image Classification to Your Android Apps
+Jim Bennett
+https://blog.xamarin.com/android-apps-tensorflow
+https://github.com/jimbobbennett/blog-samples/tree/master/UsingTensorFlowAndAzureInAndroid
+
+Tutorial: Run TensorFlow model in Python
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/export-model-python
+
+
+
+
